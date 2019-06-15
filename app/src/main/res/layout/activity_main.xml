@@ -1,0 +1,29 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/order_id_et"
+        android:layout_marginTop="50dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Order id"/>
+
+    <EditText
+        android:id="@+id/customer_id_et"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_below="@+id/order_id_et"
+        android:layout_height="wrap_content"
+        android:hint="Customer id"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/customer_id_et"
+        android:text="Start Payment"
+        android:layout_marginTop="20dp"
+        android:id="@+id/start_payment_btn"
+        />
+</RelativeLayout>
